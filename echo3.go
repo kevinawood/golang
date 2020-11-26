@@ -7,6 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Join(os.Args[1:], ""))
-	fmt.Println(os.Args[0])
+	fmt.Println(strings.Join(os.Args[1:], ""), "Command that envoked method:", os.Args[0])
 }
