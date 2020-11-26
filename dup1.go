@@ -21,4 +21,11 @@ func main() {
 			fmt.Printf("%d\t%s\n", n, line)
 		}
 	}
+
+	// ToDo find out how to print error mesage if no duplicates are found
+
+	// for key, value := range counts {
+	// 	if value  1 {
+	// 	fmt.Println("no duplicates")
+	// }
 }
